@@ -1,3 +1,8 @@
+variable "tags" {
+  type        = map
+  description = "A map of tags to add to AWS resources"
+}
+
 variable "region" {
   type        = string
   description = "region to deploy AWS resources"
