@@ -1,5 +1,5 @@
 variable "tags" {
-  type        = map
+  type        = map(any)
   description = "A map of tags to add to AWS resources"
 }
 

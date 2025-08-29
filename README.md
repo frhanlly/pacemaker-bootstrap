@@ -28,6 +28,7 @@ No resources.
 | <a name="input_ec2_type"></a> [ec2\_type](#input\_ec2\_type) | EC2 instance type | `string` | n/a | yes |
 | <a name="input_project_name"></a> [project\_name](#input\_project\_name) | project name | `string` | n/a | yes |
 | <a name="input_region"></a> [region](#input\_region) | region to deploy AWS resources | `string` | n/a | yes |
+| <a name="input_tags"></a> [tags](#input\_tags) | A map of tags to add to AWS resources | `map` | n/a | yes |
 | <a name="input_vpc_cidr"></a> [vpc\_cidr](#input\_vpc\_cidr) | VPC cidr block | `string` | n/a | yes |
 
 ## Outputs
