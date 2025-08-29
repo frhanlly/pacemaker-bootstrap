@@ -1,6 +1,5 @@
 module "network" {
-  source = "./modules/network"
-
+  source       = "./modules/network"
   tags         = local.tags
   vpc_cidr     = var.vpc_cidr
   region       = var.region
@@ -9,7 +8,6 @@ module "network" {
 
 module "ec2" {
   source = "./modules/ec2"
-
 
   depends_on   = [module.network]
   tags         = local.tags
